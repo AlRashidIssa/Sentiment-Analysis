@@ -2,7 +2,7 @@ pandas
 numpy
 matplotlib
 seaborn
-collections
+collection
 wordcloud
 re
 nltk
