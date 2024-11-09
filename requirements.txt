@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+collections
+wordcloud
+re
+nltk
+scikit-learn
+gensim
+tensorflow
+pickle-mixin  # This is for using 'pickle' in some distributions
