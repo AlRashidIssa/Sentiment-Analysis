@@ -2,7 +2,7 @@ import logging
 import os
 
 # Define the log directory relative to this file's location
-LOG_DIR = os.path.join(os.path.dirname(__file__), "/workspaces/Real-Time-Emoji/logs")
+LOG_DIR = os.path.join(os.path.dirname(__file__), "/workspaces/Sentiment-Analysis/logs")
 LOG_DIR = os.path.abspath(LOG_DIR)
 print("log Direcotre abspath" ,LOG_DIR)
 
@@ -34,4 +34,3 @@ def setup_logger(name, log_file, level=logging.INFO):
 
 # Instantiate loggers
 app_logger = setup_logger(name="app_logger", log_file=os.path.join(LOG_DIR, "app.log"))
-model_logger = setup_logger(name="model_loger", log_file=os.path.join(LOG_DIR, "model.log"))
