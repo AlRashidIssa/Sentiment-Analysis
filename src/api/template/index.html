@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form action="/predict" method="post">
+        <label for="text">Enter Text:</label>
+        <textarea name="text" id="text" rows="4" cols="50">{{ input_text | default('') }}</textarea>
+        <br>
+        <input type="submit" value="Predict Sentiment">
+    </form>
+
+    {% if result %}
+    <h2>Prediction Result:</h2>
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
