@@ -116,4 +116,6 @@ This project is licensed under the MIT License. See `LICENSE` for more details.
 
 Special thanks to the contributors and the open-source community for their resources and support in building this application.
 
+![alt text](image.png)
+
 ---
