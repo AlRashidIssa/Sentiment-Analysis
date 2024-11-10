@@ -48,8 +48,15 @@ pip install fastapi uvicorn tensorflow jinja2
    ```bash
    uvicorn src.api.main:APP --reload
    ```
-
 3. **Access the application** by navigating to `http://127.0.0.1:8000/` in your web browser. You will see an HTML form where you can enter text for sentiment analysis.
+
+
+- **`docker pull alrashidissa/sentiment_analysis_app:latest`**: This command downloads the latest version of the Docker image from Docker Hub.
+- **`docker run -p 8000:8000 alrashidissa/sentiment_analysis_app`**: This command runs the Docker container, forwarding port `8000` on your local machine to port `8000` inside the container. This makes the FastAPI application accessible at `http://localhost:8000`.
+
+---
+
+This updated README provides clear instructions for users to run your Docker image, and includes basic details about the API usage.
 
 ## Usage
 
