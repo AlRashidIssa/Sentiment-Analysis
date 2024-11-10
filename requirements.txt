@@ -10,7 +10,7 @@ pickle-mixin  # This is for using 'pickle' in some distributions
 fastapi
 uvicorn
 jinja2
-tensorflow  # or torch
+tensorflow 
 pandas
 numpy
 
