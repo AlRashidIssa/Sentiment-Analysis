@@ -3,19 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <title>Sentiment Analysis</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #6dd5fa, #2980b9);
+            color: #444;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Form container styling */
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            max-width: 90%;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            resize: none;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #1672b0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1493e8;
+        }
+
+        /* Prediction result styling */
+        .result-container {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f1f1f1;
+            border-left: 5px solid #88d3e6;
+        }
+
+        .result-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .result-text {
+            font-size: 1em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+    </style>
 </head>
 <body>
-    <h1>Sentiment Analysis</h1>
-    <form action="/predict" method="post">
-        <label for="text">Enter Text:</label>
-        <textarea name="text" id="text" rows="4" cols="50">{{ input_text | default('') }}</textarea>
-        <br>
-        <input type="submit" value="Predict Sentiment">
-    </form>
+    <div class="form-container">
+        <h1>Sentiment Analysis</h1>
+        <form action="/predict" method="post">
+            <label for="text">Enter Text:</label>
+            <textarea name="text" id="text" rows="4" cols="50">{{ input_text | default('') }}</textarea>
+            <input type="submit" value="Predict Sentiment">
+        </form>
 
-    {% if result %}
-    <h2>Prediction Result:</h2>
-    <p>{{ result }}</p>
-    {% endif %}
+        {% if result %}
+        <div class="result-container">
+            <p class="result-title">Prediction Result:</p>
+            <p class="result-text">{{ result }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <footer>
+        <p>Powered by Sentiment Analysis API</p>
+    </footer>
 </body>
 </html>
