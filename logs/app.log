@@ -1,12 +1,38 @@
-2024-11-09 20:32:11,416 - app_logger - INFO - Tokenizer loaded successfully from /workspaces/Sentiment-Analysis/models/tokenizer.pickle
-2024-11-09 20:35:50,877 - app_logger - INFO - Tokenizer loaded successfully from /workspaces/Sentiment-Analysis/models/tokenizer.pickle
-2024-11-09 20:36:26,525 - app_logger - ERROR - File not found: /ddd/Sentiment-Analysis/models/tokenizer.pickle - [Errno 2] No such file or directory: '/ddd/Sentiment-Analysis/models/tokenizer.pickle'
-2024-11-09 20:38:40,242 - app_logger - INFO - Tokenizer loaded successfully from /workspaces/Sentiment-Analysis/models/tokenizer.pickle
-2024-11-09 20:41:24,168 - app_logger - INFO - Model loaded successfully from /workspaces/Sentiment-Analysis/models/final_sentiment_model.h5
-2024-11-09 20:43:11,219 - app_logger - ERROR - The file does not exist: /workspaceddds/Sentiment-Analysis/models/final_sentiment_model.h5
-2024-11-09 21:10:29,222 - app_logger - INFO - Clearing Text!
-2024-11-09 21:18:53,977 - app_logger - INFO - Tokenizer loaded successfully from /workspaces/Sentiment-Analysis/models/tokenizer.pickle
-2024-11-09 21:37:04,513 - app_logger - INFO - Model loaded successfully from /workspaces/Sentiment-Analysis/models/final_sentiment_model.h5
-2024-11-09 21:37:04,635 - app_logger - INFO - Tokenizer loaded successfully from /workspaces/Sentiment-Analysis/models/tokenizer.pickle
-2024-11-09 21:37:04,635 - app_logger - INFO - Clearing Text!
-2024-11-09 21:37:05,104 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:16:13,761 - app_logger - INFO - Model loaded successfully from /workspaces/Sentiment-Analysis/models/final_sentiment_model.h5
+2024-11-10 12:16:13,882 - app_logger - INFO - Tokenizer loaded successfully from /workspaces/Sentiment-Analysis/models/tokenizer.pickle
+2024-11-10 12:16:40,099 - app_logger - INFO - Clearing Text!
+2024-11-10 12:16:40,099 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:16:40,630 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:16:40,631 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:18:27,867 - app_logger - INFO - Clearing Text!
+2024-11-10 12:18:27,867 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:18:27,931 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:18:27,931 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:18:33,623 - app_logger - INFO - Clearing Text!
+2024-11-10 12:18:33,624 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:18:33,698 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:18:33,698 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:18:35,375 - app_logger - INFO - Clearing Text!
+2024-11-10 12:18:35,375 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:18:35,435 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:18:35,435 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:19:15,418 - app_logger - INFO - Clearing Text!
+2024-11-10 12:19:15,418 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:19:15,481 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:19:15,481 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:19:19,374 - app_logger - INFO - Clearing Text!
+2024-11-10 12:19:19,374 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:19:19,435 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:19:19,435 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:20:12,102 - app_logger - INFO - Clearing Text!
+2024-11-10 12:20:12,102 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:20:12,161 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:20:12,161 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:20:32,598 - app_logger - INFO - Clearing Text!
+2024-11-10 12:20:32,599 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:20:32,657 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:20:32,658 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
+2024-11-10 12:21:08,318 - app_logger - INFO - Clearing Text!
+2024-11-10 12:21:08,318 - app_logger - INFO - Cleaned text: move best move words sure watch move
+2024-11-10 12:21:08,388 - app_logger - INFO - Prediction made successfully for input text.
+2024-11-10 12:21:08,389 - app_logger - INFO - Prediction result: Sentiment: Negative, Confidence: 0.46
