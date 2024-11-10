@@ -1,12 +1,16 @@
-pandas
-numpy
 matplotlib
 seaborn
 collection
 wordcloud
-re
+regex
 nltk
 scikit-learn
 gensim
-tensorflow
 pickle-mixin  # This is for using 'pickle' in some distributions
+fastapi
+uvicorn
+jinja2
+tensorflow  # or torch
+pandas
+numpy
+
